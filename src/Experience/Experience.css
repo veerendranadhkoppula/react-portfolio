@@ -1,0 +1,142 @@
+.experience-section {
+    padding: 4rem 2rem;
+  }
+  
+  .section-title {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333;
+    font-weight: bold;
+    color: var(--experience-text-color);
+  }
+  
+  .experience-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  
+  }
+  
+  .gif-container {
+    flex: 1;
+  }
+  
+  .experience-gif {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+  }
+  
+  .experience-card {
+    flex: 2;
+    display: flex;
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+  }
+  
+  .company-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-right: 1.5rem;
+  }
+  
+  .experience-content {
+    flex: 1;
+  }
+  
+  .experience-content h3 {
+    margin: 0;
+    font-size: 1.75rem;
+    color: #2b2b2b;
+  }
+  
+  .experience-content h4 {
+    margin-top: 0.5rem;
+    font-size: 1.25rem;
+    color: #666;
+  }
+  
+  .experience-content ul {
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+    list-style-type: disc;
+  }
+  
+  .experience-content ul li {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  .link{
+    width: auto;
+    height: 200px;
+    padding-left: 780px;
+  }
+  @media (max-width: 768px) {
+    .experience-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+  
+    .experience-card {
+      flex-direction: column;
+      text-align: center;
+      padding: 1.5rem;
+    }
+  
+    .company-logo {
+      margin: 0 auto 1rem auto;
+    }
+  
+    .experience-gif {
+      max-width: 200px;
+    }
+  
+    .experience-content h3 {
+      font-size: 1.5rem;
+    }
+  
+    .experience-content h4 {
+      font-size: 1rem;
+    }
+  
+    .experience-content ul li {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .section-title {
+      font-size: 2rem;
+    }
+  
+    .experience-gif {
+      max-width: 150px;
+    }
+  
+    .experience-card {
+      padding: 1rem;
+    }
+  
+    .experience-content h3 {
+      font-size: 1.25rem;
+    }
+  
+    .experience-content h4 {
+      font-size: 0.9rem;
+    }
+  
+    .experience-content ul li {
+      font-size: 0.9rem;
+    }
+  }
